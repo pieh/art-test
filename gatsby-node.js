@@ -70,7 +70,7 @@ exports.sourceNodes = ({
 
   createNodeHelper(`DepPageQuery`, {
     id: `page-query-dynamic-${runNumber}`, // this should cause different page path
-    label: `This is run number {$runNumber}`,
+    label: `This is run number ${runNumber}`,
   });
 
   // used by static queries
